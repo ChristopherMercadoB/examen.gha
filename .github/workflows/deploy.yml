@@ -17,7 +17,7 @@ jobs:
 
     - name: Deploy to Surge
       run: |
-        surge --project ./ --domain your-surge-subdomain.surge.sh
+        surge --project ./ --examdevops.surge.sh
       env:
-        SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
-        SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+        SURGE_LOGIN: ${{ christopher300804@gmail.com }}
+        SURGE_TOKEN: ${{ 15ba8ee4e3bc4d194176949770a52887 }}
